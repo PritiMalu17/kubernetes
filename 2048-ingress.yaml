@@ -9,7 +9,7 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/group.name: service-group
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":443}, {"HTTP":80}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:eu-central-1:851725559636:certificate/407934c7-608e-4280-98c1-9e14a0abdddb
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:eu-central-1:851725559636:certificate/a7c5d9a7-6f35-4f18-8148-cc26d5c01c99
 spec:
   rules:
     - host: app.azurefinalproject.online
