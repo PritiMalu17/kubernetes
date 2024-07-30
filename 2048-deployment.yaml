@@ -13,7 +13,7 @@ spec:
         app: "2048"
     spec:
       containers:
-        - image: 851725559636.dkr.ecr.eu-central-1.amazonaws.com/test
+        - image: 851725559636.dkr.ecr.eu-central-1.amazonaws.com/test:2
           imagePullPolicy: Always
           name: "2048"
           ports:
